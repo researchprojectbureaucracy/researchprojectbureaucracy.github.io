@@ -1,15 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Proje Adı: Türkiye'de Siyasal İktidarların Bürokrasi Üzerindeki Denetiminin 'Bürokratik Atamalar' Üzerinden Analizi (1983-2022)"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
-
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+TÜBİTAK tarafından yürütülen 3501-Kariyer Geliştirme Programı kapsamında desteklenen 122K807 numaralı bu projede, özellikle Kamu Yönetimi alanyazınında son yıllarda hayli popüler olan ve siyasi iktidar ile bürokrasi arasındaki ilişkilerin oldukça önemli bir boyutunu oluşturan bürokrasinin siyasallaşması konu edinilmiştir.
 
 A data-driven personal website
 ======
