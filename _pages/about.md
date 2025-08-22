@@ -13,6 +13,10 @@ Proje, biri nicel diğeri ise nitel çözümlemelere dayalı olan iki bölümden
 
 Yalnızca bir hipotezin bulunduğu nitel bölümde ise bürokratik atamaların hükümetler tarafından Türkiye Büyük Millet Meclisi Genel Kurulu ile ulusal basında nasıl gerekçelendirildiğine ve meşrulaştırıldığına, kullanılan söylemin yıllar içerisinde değişip değişmediğine odaklanılmaktadır. Bu kapsamda biri Tutanak Veri Seti (TVS) adını taşıyan ve 1983-2022 yılları arasında TBMM Genel Kurul tutanaklarında hükümet temsilcilerince bürokratik atamalara ilişkin olarak yapılan açıklamaları, diğeri ise Gazete Veri Seti (GVS) adını taşıyan ve 1983-2022 yılları arasında Cumhuriyet ile Türkiye gazetelerinde yine hükümet temsilcilerince atamalara dair yapılan açıklamaları içeren iki ayrı veri seti oluşturulmuştur. TVS ve GVS’nin oluşturulmasını takiben nitel bölümde yer alan hipotez, TVS ve GVS için ayrı ayrı olmak üzere sınanmıştır.
 
+**PROJE EKİBİ**
+
+
+
 
 **PROJE HAKKINDA**
 
@@ -178,6 +182,11 @@ Projede bürokrasiye yapılan atamalar kapsamındaki söylem de 1983-2023 yılla
     <td>bürokrat</td>
   </tr>
 </table>
+
+
+**PROJE FAALİYETLERİ**
+
+06.02.2025 Belçika’da (Gent) düzenlenen Netherlands Institute of Governance (NIG) Konferansı’nda; 24.04.2025 tarihinde Türkiye’de (Trabzon) düzenlenen 26. Uluslararası Kamu Yönetimi Forumu’nda (KAYFOR 26); 21.05.2025 tarihinde Slovakya’da (Bratislava) düzenlenen 33. NISPAcee Annual Konferansı’nda; 12-16 Temmuz tarihlerinde Güney Kore’de (Seul) IPSA tarafından düzenlenen 28. World Congress of Political Science’da alanda çalışan farklı ülkelerden meslektaşlar önünde sunulmuştur. Ek olarak, proje bulguları çalışma ziyaretleri temelinde yurtdışında bulunan üniversitelerde konuya ilgi duyan meslektaşlarla da paylaşılmıştır. Bu kapsamda, proje sonucunda elde edilen bulgular, 19 Kasım 2024 tarihinde Hollanda’da (Lahey) bulunan Leiden Üniversitesi’nde Doç. Dr. Kohei Suzuki tarafından yürütülen yüksek lisans dersinde; 18 Temmuz 2025 tarihinde Japonya’da (Tokyo) bulunan Hosei Üniversitesi’nde Prof. Dr. Reona Hayashi; 15 Eylül 2025 tarihinde Almanya’da (Hamburg) bulunan Helmut-Schmidt Üniversitesi’nde Prof. Dr. Sylvia Veit tarafından düzenlenen seminerde öğrenci ve meslektaşlarla paylaşılmıştır. Ayrıca Kamu Yönetimi Derneği tarafından 30-31 Ekim tarihlerinde Ankara’da düzenlenen 2. Uluslararası Kamu Yönetimi Kongresi’ne proje yürütücüsü, araştırmacıları ve yurt dışı danışmana ek olarak proje bursiyerlerinden ikisinin de yazarı olduğu üç adet bildiriyle bir panel önerilerek proje bulgularının Türkiye’de alandan çok sayıda elit katılımcı önünde paylaşılması amaçlanmıştır.
 
 
 
