@@ -23,7 +23,7 @@ Bürokratik siyaset yaklaşımının yeni yöntem ve kategorileri, henüz Türki
 
 Diğer taraftan, söz konusu siyasi iktidarların bürokratik dolaşımı ne şekilde anlamlandırdığı ve bu süreçte hükümet bazında tarihsel olarak anlamlı bir değişimin söz konusu olup olmadığını tespit etmek için siyasal iktidarın demeçlerine başvurulmuştur. Bu kapsamda 1983-2022 yılları arasında Türkiye ve Cumhuriyet gazeteleri taranarak Söylem Veri Seti; Türkiye Büyük Millet Meclisi tutanakları taranarak Tutanak Veri Seti oluşturulmuştur. Söylem Veri Seti üzerine doğal dil işleme (natural language processing-NLP) teknikleri kullanılarak betimleyici; Tutanak Veri Seti üzerinde ise tarihsel söylem analizi tekniği kullanılarak açıklayıcı çözümleme gerçekleştirilmiştir. Elde edilen bulgular ışığında yıllar içerisinde hükümetlerin bürokratik atamaları gerekçelendirmek amacıyla başvurdukları söylemde dikkate değer bir değişimin söz konusu olmadığı, yıllar içerisinde hükümetlerin değişmesine karşın söylemin ‘rasyonelleştirme’ temelinde, daha açık bir ifadeyle atamaların hükümet aktörlerince hukuka uygunluk, teknik gereklilik gibi temalar etrafında gerekçelendirildiği/meşrulaştırıldığı görülmüştür.
 
-PROJE VERİLERİ
+**PROJE VERİLERİ**
 
 1. ATAMA VERİ SETİ
    
