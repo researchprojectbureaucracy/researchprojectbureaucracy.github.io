@@ -23,6 +23,161 @@ Bürokratik siyaset yaklaşımının yeni yöntem ve kategorileri, henüz Türki
 
 Diğer taraftan, söz konusu siyasi iktidarların bürokratik dolaşımı ne şekilde anlamlandırdığı ve bu süreçte hükümet bazında tarihsel olarak anlamlı bir değişimin söz konusu olup olmadığını tespit etmek için siyasal iktidarın demeçlerine başvurulmuştur. Bu kapsamda 1983-2022 yılları arasında Türkiye ve Cumhuriyet gazeteleri taranarak Söylem Veri Seti; Türkiye Büyük Millet Meclisi tutanakları taranarak Tutanak Veri Seti oluşturulmuştur. Söylem Veri Seti üzerine doğal dil işleme (natural language processing-NLP) teknikleri kullanılarak betimleyici; Tutanak Veri Seti üzerinde ise tarihsel söylem analizi tekniği kullanılarak açıklayıcı çözümleme gerçekleştirilmiştir. Elde edilen bulgular ışığında yıllar içerisinde hükümetlerin bürokratik atamaları gerekçelendirmek amacıyla başvurdukları söylemde dikkate değer bir değişimin söz konusu olmadığı, yıllar içerisinde hükümetlerin değişmesine karşın söylemin ‘rasyonelleştirme’ temelinde, daha açık bir ifadeyle atamaların hükümet aktörlerince hukuka uygunluk, teknik gereklilik gibi temalar etrafında gerekçelendirildiği/meşrulaştırıldığı görülmüştür.
 
+PROJE VERİLERİ
+
+1. ATAMA VERİ SETİ
+   
+Atama kararnameleri, Resmî Gazete sayıları gün gün taranarak bulunmuş ve bulunan atama kararnamelerinde yer alan veriler, daha önceden oluşturulmuş ve proje ekibiyle paylaşılmış excel veri dosyalarına aşağıda yer verilen örnekteki gibi işlenmiştir.
+
+<table>
+  <tr>
+    <th>Adı Soyadı</th>
+    <th>Eski Unvan</th>
+    <th>Yeni Unvan</th>
+    <th>Tarih</th>
+    <th>Geldiği Kurum</th>
+    <th>Geldiği Bakanlık</th>
+    <th>Atandığı Kurum</th>
+    <th>Atandığı Bakanlık</th>
+    <th>Bakan</th>
+    <th>Başbakan</th>
+    <th>Cumhurbaşkanı</th>
+  </tr>
+  <tr>
+    <td>Mehmet Altunkaya</td>
+    <td>ilçe müdürü</td>
+    <td>il müdürü</td>
+    <td>16.02.1984</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>Kazım Oksav</td>
+    <td>Turgut Özal</td>
+    <td>Kenan Evren</td>
+  </tr>
+  <tr>
+    <td>Ahmet Zeki Elluran</td>
+    <td>ilçe müdürü</td>
+    <td>il müdürü</td>
+    <td>16.02.1984</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>Kazım Oksav</td>
+    <td>Turgut Özal</td>
+    <td>Kenan Evren</td>
+  </tr>
+  <tr>
+    <td>Burhan Toraman</td>
+    <td>il müdürü</td>
+    <td>il müdürü</td>
+    <td>16.02.1984</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>diyanet işleri başkanlığı</td>
+    <td>başbakanlık</td>
+    <td>Kazım Oksav</td>
+    <td>Turgut Özal</td>
+    <td>Kenan Evren</td>
+  </tr>
+</table>
+
+
+
+2. GAZETE VERİ SETİ
+
+Proje kapsamında, Türkiye ve Cumhuriyet gazetelerinde 1983-2023 yılları arasında yayınlanan bürokrasiye yapılan atamalara/görevden almalara dair tüm haberler excel ortamına aktarılarak Gazete Veri Seti oluşturulmuştur. Aktarım sonucunda aşağıdaki örnek tablodaki gibi bilgiler içeren bir veri dosyası elde edilmiştir.
+
+<table>
+  <tr>
+    <th>GAZETE</th>
+    <th>TARİH</th>
+    <th>YAZAR</th>
+    <th>TÜR</th>
+    <th>HABER/KÖŞE BAŞLIĞI</th>
+    <th>HABER METNİ</th>
+    <th>SÖYLEYEN</th>
+    <th>METİN TÜRÜ</th>
+  </tr>
+  <tr>
+    <td>Türkiye</td>
+    <td>3.11.1983</td>
+    <td>Muhsin Abay</td>
+    <td>Köşe Yazısı</td>
+    <td>DÜŞÜNCELER ETÜDLER</td>
+    <td>
+      Memur veya bürokrat kesimi sız işgüzarlık olsun veya inat olsun diye işlerini yokuşa sürmüyor şüphesiz. Tepelerinde imtiyazsız ve şüphecilik üzerine kurulmuş bir <u>tevazüat</u> çevrelerinde halkaları birbirine karışmış, diğer bir ücrete <u>bavâle</u> eden teşkilat bulunmaktadır.<br><br>
+      <b>BÜROKRASİ</b><br>
+      Devlet çarkının işleyişi konusundaki şikayetlerimizin uzun bir geçmişi vardır. Plânlı dönemin öncesinin zorlukları plânlarla tekrar tekrar ele alınıp hal <u>edücek</u> bulunacağı yazılmış ise de bugüne kadar bir arpa boyu katledilememiştir.<br><br>
+      Devlet kapısına işi düşüp de işi "çöz" etmeyen kimse yok gibidir. Vatandaşın yüreğine işte bu buruktonyu salan sebep bürokrasidir.<br><br>
+      Kamuoyunda bir süredir müessiflerinden kuruluşlar adına dile getirilen "bürokrasiden şikayet" mevzuu nihayet Devlet <u>Başkanov</u>'na mesajına yansımış bulunmaktadır.<br><br>
+      Meselâ ferdî teşebbüsün, tutamadığımız milletin işlerini yürütmek üzere devlet çarkını tutan memurların davranışları üzerinde düğümlenmektedir. Basit bir evrak, en kısa yoldan temellük etmesi <u>iştebekerce</u>, mekanizmanın ilgisiz dişlilerine de uğratılmakta ve farklı kanunlarda atılandık dağınık halkalardan geçirilmek istenmektedir. Bu ise paranın, malzemenin, zamanın ve insanın israfına yol açmaktadır.<br><br>
+      İkinci sınıf bir işyerini israf alanları olarak gören vatandaş, <u>ikazda</u> yapılabilmek için 280 imzalı çarpışık koridora geçebilmek, bırakınız <u>şöyle</u> bir vatandaşı, <u>üsde</u> dilden kimselerin de harc olmaktan çıkmıştır.<br><br>
+      Bürokrasi iş geçirmeye veya "idücülik" mesleğinin müptelâsı <u>ümitsiz</u> hâline gelmiştir. Bu ise devletteki <u>iş</u> kısır döngüsüne ve <u>öksöz</u> kasnaklarının ilavesi demektir.<br><br>
+      Memur veya bürokrat kesimi sız işgüzarlık olsun veya inat olsun diye işleri yokuşa sürmüyor şüphesiz. Tepelerinde imtiyazsız ve şüphecilik üzerine kurulmuş bir <u>tevazüat</u> çevrelerinde halkaları birbirine karışmış, diğer bir ücrete <u>bavâle</u> eden teşkilat bulunmaktadır. Bu ortamda “işi <u>kitabına</u> uyduran”, en ufak bir risk üstlenmeden, ücreti üzerine almadan <u>evâk</u> bir başka kapıya yönlendirilen başarılı, bürokrat olmaktadır.<br><br>
+      Batı ülkelerinde gümrük işlemleri birkaç saat içinde tamamlanırken bizde sekiz saatte zor halledilen iş bu kadar çabuk ve basit görülebilmemektedir. Vatandaşın işindeki hikmet memura tanınan hareket serbestisi ve <u>ihtiyâ</u> unsurunda gizlidir.<br><br>
+      Bu hikmete sahip olabilmek için gerekli <u>tevazüat</u> değişikliğine, teşkilâtın merkezîyetçiliğinden kurtarılmasına da bizde yine bürokrasi izin <u>verecektir</u>. Gerisi boşuna zahmet.<br><br>
+      Düğüm yumağı tıpkı ortasında gelişini bulmuyor.
+    </td>
+    <td>Muhsin Abay</td>
+    <td>Gazetenin Söylemi</td>
+  </tr>
+  <tr>
+    <td>Türkiye</td>
+    <td>6.12.1983</td>
+    <td>NA</td>
+    <td>Haber</td>
+    <td>Turgut Özal</td>
+    <td>
+      Anavatan Partisi Genel Başkanı Özal, vatandaşları sıkmayacak bir bürokrasinin şart olduğunu kaydederek daha sonra şöyle dedi:<br><br>
+      “Türkiye dünya ekonomisiyle daha fazla temas kurmaya mecburdur. Türkiye pazarı yeterli değildir, yurt dışına çıkarsanız mallarınız daha iyi değerlenir.”<br><br>
+      Özal, 24 Ocak kararlarıyla ilgili bir soruyu cevaplarken, Türkiye’nin o tarihte büyük bir çıkmazın içerisinde olduğunu, ülkenin yanan ev manzarası gösterdiğini belirterek, “O gün alınan tedbirler alınmasa gereken tedbirlerden bahsetmek zordu. Bugün bazı tedbirler alınmazsa ileride problemler çıkabilecektir. Ama istikamet değişmeyecektir” diye konuştu.<br><br>
+      Özal, seçim programlarında partisinin net olarak orta direğe dayandığını ortaya koyduğunu, orta direği ekonominin gelişmesiyle birlikte daha iyi hale getirmenin ana hedefleri olduğunu anlatarak, enflasyon aşağı çekilirken rekabet sisteminin getirilmesi gerektiğini bildirdi.
+    </td>
+    <td>Turgut Özal</td>
+    <td>İktidarın Söylemi</td>
+  </tr>
+</table>
+
+
+3. TUTANAK VERİ SETİ
+
+Projede bürokrasiye yapılan atamalar kapsamındaki söylem de 1983-2023 yılları arasında, TBMM Tutanak Dergisi’nde yer alan Genel Kurul konuşmalarından taranmıştır. Tarama, yasama yılı esas alınarak ve “bürokrat”, “bürokrasi”, “atama”, “kayırma”, “liyakat” kelimeleri kullanılarak yapılmıştır. Bu veri setiyle aşağıdaki örnek tablodaki  gibi bilgileri içeren bir veri dosyası elde edilmiş ve Tutanak Veri Seti’nin oluşturulmuştur.
+
+<table>
+  <tr>
+    <th>tarih</th>
+    <th>dönem</th>
+    <th>yasama yılı</th>
+    <th>birleşim</th>
+    <th>unvan</th>
+    <th>söyleyen</th>
+    <th>söylenen</th>
+    <th>partisi</th>
+    <th>tür</th>
+    <th>anahtar kelime</th>
+  </tr>
+  <tr>
+    <td>07.12.83</td>
+    <td>17</td>
+    <td>1</td>
+    <td>5</td>
+    <td>cumhurbaşkanı</td>
+    <td>evren</td>
+    <td>
+      Dünyada bugün kıyasıya sürdürülen bir ekonomik savaş olduğunu unutmayalım.<br><br>
+      Bu savaşı da askerî savaşlar gibi kazanmak zorundayız.<br><br>
+      Ekonomik ilişkilerimizi bütün ülkelerle ve özellikle Ortadoğu, Arap ve Müslüman
+      ülkelerle ve komşularımızla daha da geliştirmek ihtiyacındayız.<br><br>
+      İhracattaki formaliteleri ve bürokratik engelleri azaltmalıyız.
+    </td>
+    <td>-</td>
+    <td>diğer</td>
+    <td>bürokrat</td>
+  </tr>
+</table>
 
 
 
