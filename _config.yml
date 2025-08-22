@@ -263,7 +263,7 @@ defaults:
   # _publications
   - scope:
       path: ""
-      type: publications
+      type: Hakkinda
     values:
       layout: single
       author_profile: true
